@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		
+
+		//使用arguments对象可以获取传入的每个参数的值
+
+		function f1(){
+			//arguments是伪数组
+			var sum=0;
+			for (var i = 0; i < arguments.length; i++) {
+				sum+=arguments[i];
+			}
+			return sum;
+		}
+	</script>
+</body>
+</html>

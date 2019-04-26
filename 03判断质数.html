@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		
+
+		//用这个数字和这个数字前面所有的数字整除一遍（没有1，没有自身）
+
+		function isPrime(num){
+			for(var i =2;i<num;i++){
+				//如果有一个数整除了，就不用往后了，说明不是质数
+				if (num%i==0) {
+					return false;
+				}
+			}
+			return true;
+		}
+		reverse()
+		console.log(isPrime(92)?"是质数":"不是质数");
+	</script>
+</body>
+</html>
