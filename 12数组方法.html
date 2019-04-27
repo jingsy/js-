@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		
+		//判断变量时表示数组类型
+		//1.instanceof
+
+		//2.Array.isArray(对象)
+		//判断对象是不是数组
+
+		//3.Array.concat()
+
+		//4.every(函数)
+		//返回值是布尔类型
+		
+		// var arr=[100,200,300];
+		// //a----: 元素的值
+		// //b----: 索引的值
+		// //c----: 谁调用了这个方法，c就是谁
+		// arr.every(function(a,b,c){
+		// 	return a>2000;//数组的每个元素的值都要大于两千多情况
+		// 	//最后才返回true
+		// });
+
+
+		//5.filter("元素的值"，"元素的index",“被遍历的数组”)
+		//返回的是数组中每一个元素都符合条件的元素然后组成了一个新的数组
+
+		// var arr= [12,34,15,35,34];
+		// var newArr=arr.filter(function(ele){
+		// 	//ele---每个元素
+		// 	return ele>20;
+		// });
+		// console.log(newArr);
+
+
+		//6.push()
+		//吧值加到数组最后，返回的是长度
+
+		//7.pop()
+		//删除最后一个返回删除的这个值
+
+		//8.shift()
+		//删除第一个 返回被删除的这个元素
+
+		//9.unshift()
+		//把值加到数组第一位
+		//返回值是插入后的长度
+
+		//10.forEach()
+		//对数组的每一个元素都执行该函数
+		// var arr =[1,4,21,1];
+		// arr.forEach(function(ele,index){
+		// 	console.log(ele+"+"+index);
+		// });
+
+
+
+		//11. join(“字符串”)；
+		//返回的是字符串
+
+
+		//12。 map()
+		//传入一个函数 数组中的每一个元素都要
+		//执行这个函数，把执行的结果全部放到一个新的数组中
+		// var nums=[1,4,9];
+		// var roots =nums.map(Math.sqrt);
+		// console.log(roots);
+
+		//13. reverse()
+		//反转
+
+		//14. sort()
+		//排序 不一定稳定 根据unicode码
+		// 固定写法
+		// sort(function(a,b){
+		// 	if(a>b){
+		// 		return 1;
+		// 	}else if(a==b){
+		// 		return 0;
+		// 	}else {
+		// 		return -1;
+		// 	}
+		// });
+
+
+		//15. splice()
+		//插入或者删除
+		//返回数组
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

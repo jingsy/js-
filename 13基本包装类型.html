@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		
+		//普通变量不能直接调用属性或者方法
+		//对象可以直接调用属性和方法
+
+		//基本包装类型
+		//本身是基本类型
+		//但是在执行代码的过程中
+		//如果这种类型的变量调用了属性或者方法
+		//那么这种类型就不再是基本类型了
+		//而是基本包装类型
+
+		//那么这个变量也不是普通类型了
+		//而是基本包装类型对象
+
+
+
+		var num=10;
+		console.log(num.toString());
+		//
+
+		//思考下面🤔的
+		var flag=new Boolean(false);
+		var result=flag&&true;
+		console.log(result);
+		//规律
+		// 对象+true结果是后面的——（true）
+		//true+对象 结果是后面的——（对象）
+
+		 var num=10;
+		var num2= Number("10");//转换
+		var num3= new Number("10");//创建对象
+	</script>
+</body>
+</html>
